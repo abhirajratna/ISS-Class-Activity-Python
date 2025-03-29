@@ -8,9 +8,9 @@ def find_cube_pairs(target):  # Added colon at the end to define the function co
                 solutions.append((a, b))  # Changed `sol` to `solutions` and removed ;
     return solutions  # Corrected `sol` to `solutions` to match the variable name.
 
-pairs = find_cube_pairs(1728)  # Fixed target value from `1729` to `1728` to match the print statement.
+pairs = find_cube_pairs(1729) 
 
-print("Valid cube pairs for 1728:")  # Changed `printf` to `print`.
+print("Valid cube pairs for 1729:")  # Changed `printf` to `print`. And 1728 to 1729
 
 for a, b in pairs:  # Changed `pair` to `pairs` for correct iteration over the returned list.
-    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1728")  # Fixed exponentiation from `a**2` and `b**2` to `a**3` and `b**3`.
+    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729")  # Fixed exponentiation from `a**2` and `b**2` to `a**3` and `b**3`.
