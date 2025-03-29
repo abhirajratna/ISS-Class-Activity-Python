@@ -8,9 +8,9 @@ def find_cube_pairs(target):  # Added colon at the end to define the function co
                 solutions.append((a, b))  # Appending tuple of valid pairs to the list.
     return solutions  # Returning the list of solutions.
 
-pairs = find_cube_pairs(1729)  # Checking for cube pairs that sum to 1729.
+pairs = find_cube_pairs(1729)  # Checking for cube pairs that sum to 1729. 
 
-print("Valid cube pairs for 1729:")  # Changed 'printf' to 'print'.
+print("Valid cube pairs for 1729:")  # Changed 'printf' to 'print'. Changed 1728 to 1729
 
 for a, b in pairs:  # Looping through the list of valid pairs.
-    print(f" → {a}^3 + {b}^3 = {a**3} + {b**3} = 1729")  # Printing the pairs in the desired format.
+    print(f" → {a}^3 + {b}^3 = {a**3} + {b**3} = 1729")  # Printing the pairs in the desired format. Same as Line 13
